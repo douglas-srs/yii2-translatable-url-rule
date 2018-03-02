@@ -22,13 +22,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require geertw/yii2-translatable-url-rule
+composer require douglas-srs/yii2-translatable-url-rule
 ```
 
 or add
 
 ```
-"geertw/yii2-translatable-url-rule": "*"
+"douglas-srs/yii2-translatable-url-rule": "*"
 ```
 
 to the require section of your `composer.json` file.
