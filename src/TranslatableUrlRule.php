@@ -40,6 +40,10 @@ class TranslatableUrlRule extends BaseObject implements UrlRuleInterface {
      * @var bool If to force search in all language rules
      */
     public $forceRuleSearch = false;
+    
+    public $suffix = NULL;
+
+    public $method = NULL;
 
     /**
      * Initialize TranslatableUrlRule
@@ -64,7 +68,7 @@ class TranslatableUrlRule extends BaseObject implements UrlRuleInterface {
      */
     protected function updateRules() {
         foreach ($this->patterns as $language => $pattern) {
-            $this->rules[$language] = new UrlRule(['pattern' => $pattern, 'route' => $this->route]);
+            $this->rules[$language] = new UrlRule(['pattern' => $pattern, 'route' => $this->route, 'suffix' => $this->suffix, 'verb' => $this->method]);
         }
     }
 
