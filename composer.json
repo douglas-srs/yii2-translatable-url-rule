@@ -1,5 +1,5 @@
 {
-    "name": "douglassrs/yii2-translatable-url-rule",
+    "name": "soareseneves/yii2-translatable-url-rule",
     "description": "A custom URL rule class for Yii 2 which allows to create translated URL rules",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","i18n","translation","urlmanager"],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "douglassrs\\Yii2\\TranslatableUrlRule\\": "src/"
+            "soareseneves\\Yii2\\TranslatableUrlRule\\": "src/"
         }
     }
 }
