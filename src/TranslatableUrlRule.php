@@ -1,6 +1,6 @@
 <?php
 
-namespace douglassrs\Yii2\TranslatableUrlRule;
+namespace soareseneves\Yii2\TranslatableUrlRule;
 
 use Yii;
 use yii\base\InvalidConfigException;
